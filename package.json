@@ -1,0 +1,21 @@
+{
+  "name": "dedupe-flat-package-tree",
+  "version": "0.0.0",
+  "description": "deduplicate flat package trees",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/dedupe-flat-package-tree.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "array-find": "^1.0.0",
+    "semver": "^5.3.0"
+  }
+}
